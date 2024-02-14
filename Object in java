@@ -1,0 +1,12 @@
+const first = { Name: "Evanston" };
+const second = { Age: "19" };
+const third = { Job: "Instructor" };
+const fourth = { Course: "Python" };
+const combined = {
+  ...first,
+  ...second,
+  ...third,
+  ...fourth,
+  location: "United States"
+};
+console.log(combined.Age);
